@@ -8,6 +8,6 @@ function saludo() {
         sessionStorage.setItem("nombre",nombreaux);
         nombre = sessionStorage.getItem("nombre");
         }
-        alert("Bienvenido "+nombre)
+    alert("Bienvenido "+nombre)
 }
 saludo()
