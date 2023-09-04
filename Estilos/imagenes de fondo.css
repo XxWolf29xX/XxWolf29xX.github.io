@@ -1,0 +1,4 @@
+/* Para una imgen como fondo, la imagen tiene que estar en la misma carpeta que el archivo .css */
+body{
+background-image: url("./Trabajo Final AAPRO/backgroundtrianglespastel.jpg");
+}

@@ -1,0 +1,1281 @@
+@media(min-width: 1441px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        width: 100%;
+        min-height: 100vh;
+        position: relative;
+        background-image: url("./imágenes/backgroundtrianglespastel.jpg");
+    }
+
+    /* Tabla de horarios */
+
+    .tablahorarios {
+        caption-side: top;
+        font-size:280%;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .titulohorarios{
+        font-size: 60px;
+    }
+
+    .dias {
+        font-size: 120%;
+        font-weight: bold;
+    }
+
+    .horarios {
+        font-style: italic;
+    }
+
+    .dias,
+    .horarios {
+        color: rgb(233, 32, 25);
+        text-align: center;
+    }
+
+    /* header */
+
+    .header {
+        border: 2px;
+        border-style: outset;
+        border-radius: 5px;
+        margin: 15px;
+        position: relative;
+        height: 300px;
+        width: 100% - 15px;
+        background-color: white;
+        padding-left: 10px;
+    }
+    .contenedorlogo{
+        display: flex;
+    }
+    .Logo{
+        width: 240px;
+        height: 270px;
+    }
+
+    /* main */
+
+    .main {
+        height: 500px;
+        margin-top: 30px;
+        padding-left: 15px;
+        position: relative;
+    }
+
+    .imgkiosco{
+        height: 700px;
+        width: 1000px;
+    }
+
+    /* footer */
+
+    .footer {
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        height: 60px;
+        width: 100%;
+        background-color: rgba(235, 14, 14, 0.74);
+    }
+
+    /* formulario de pedidos */
+
+    .pedidosformulario {
+        background-color: white;
+        margin-left: 15px;
+        padding: 0px 7px 5px;
+        width: 40%;
+        border: 3px solid rgba(0, 0, 0, 0.788);
+        border-radius: 5px;
+        font-size: xx-large;
+    }
+
+    .form-check{
+        margin-left: -20px;
+    }
+    
+    .mainpedidos {
+        height: 1100px;
+    }
+
+    .nomapellpedidos {
+        padding-right: 5px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .nompedidos,
+    .apellpedidos {
+        padding-right: 15px;
+    }
+
+    /* formulario de contacto */
+
+    .contactoformulario {
+        background-color: white;
+        margin-left: 15px;
+        padding: 0px 12px 10px;
+        width: 60%;
+        border: 3px solid rgba(0, 0, 0, 0.788);
+        border-radius: 5px;
+        font-size: xx-large;
+    }
+
+    .maincontacto {
+        height: 1100px;
+    }
+
+    .nomapellcontacto {
+        padding-right: 5px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .nomcontacto,
+    .apellcontacto {
+        padding-right: 15px;
+    }
+
+    /* navegador */
+    
+    .contenedornav{
+        display: flex;
+    }
+
+    .navegador {
+        position: absolute;
+        margin: 140px 0px 0px -25%;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 0px;
+        list-style: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 300%;
+        justify-content: center;
+    }
+
+
+    .op2, .op3, .op4, .op5 {
+        text-align: center;
+        padding-right: 5px;
+        padding-left: 5px;
+        border-left: 6px solid black;
+    }
+
+    .op1 {
+        text-align: center;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    /* titulos */
+
+    .indh1 {
+        font-size: 100px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .titulomain{
+        font-size: 60px;
+    }
+    p{
+        font-size: 40px;
+    }
+}
+
+@media(min-width: 1025px) and (max-width: 1440px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        width: 100%;
+        min-height: 100vh;
+        position: relative;
+        background-image: url("./imágenes/backgroundtrianglespastel.jpg");
+    }
+
+    /* Tabla de horarios */
+
+    .tablahorarios {
+        caption-side: top;
+        font-size:160%;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .titulohorarios{
+        font-size: xx-large;
+    }
+
+    .dias {
+        font-size: 120%;
+        font-weight: bold;
+    }
+
+    .horarios {
+        font-style: italic;
+    }
+
+    .dias,
+    .horarios {
+        color: rgb(233, 32, 25);
+        text-align: center;
+    }
+
+    /* header */
+
+    .header {
+        border: 2px;
+        border-style: outset;
+        border-radius: 5px;
+        margin: 15px;
+        position: relative;
+        height: 100px;
+        width: 100% - 15px;
+        background-color: white;
+        padding-left: 10px;
+    }
+    .contenedorlogo{
+        display: flex;
+    }
+
+    /* main */
+
+    .main {
+        height: 600px;
+        margin-top: 30px;
+        padding-left: 15px;
+        position: relative;
+    }
+
+    .imgkiosco{
+        height: 450px;
+        width: 700px;
+    }
+
+    /* footer */
+
+    .footer {
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        height: 25px;
+        width: 100%;
+        background-color: rgba(235, 14, 14, 0.74);
+    }
+
+    /* formulario de pedidos */
+
+    .pedidosformulario {
+        background-color: white;
+        margin-left: 15px;
+        padding: 0px 7px 5px;
+        width: 40%;
+        border: 3px solid rgba(0, 0, 0, 0.788);
+        border-radius: 5px;
+    }
+
+    .form-check{
+        margin-left: -20px;
+    }
+    
+    .mainpedidos {
+        height: 700px;
+    }
+
+    .nomapellpedidos {
+        padding-right: 5px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .nompedidos,
+    .apellpedidos {
+        padding-right: 15px;
+    }
+
+    /* formulario de contacto */
+
+    .contactoformulario {
+        background-color: white;
+        margin-left: 15px;
+        padding: 0px 12px 10px;
+        width: 60%;
+        border: 3px solid rgba(0, 0, 0, 0.788);
+        border-radius: 5px;
+    }
+
+    .maincontacto {
+        height: 650px;
+    }
+
+    .nomapellcontacto {
+        padding-right: 5px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .nomcontacto,
+    .apellcontacto {
+        padding-right: 15px;
+    }
+
+    /* navegador */
+    
+    .contenedornav{
+        display: flex;
+    }
+
+    .navegador {
+        position: absolute;
+        margin: 50px 0px 0px -15%;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 0px;
+        list-style: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 120%;
+        justify-content: center;
+    }
+
+
+    .op2, .op3, .op4, .op5 {
+        text-align: center;
+        padding-right: 5px;
+        padding-left: 5px;
+        border-left: 2px solid black;
+    }
+
+    .op1 {
+        text-align: center;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    /* titulos */
+
+    h1 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
+
+@media(min-width: 769px) and (max-width: 1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        width: 100%;
+        min-height: 100vh;
+        position: relative;
+        background-image: url("./imágenes/backgroundtrianglespastel.jpg");
+    }
+
+    /* Tabla de horarios */
+
+    .tablahorarios {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .titulohorarios{
+        font-size: 140%;
+    }
+
+    .dias {
+        font-size: 120%;
+        font-weight: bold;
+    }
+
+    .horarios {
+        font-style: italic;
+    }
+
+    .dias,
+    .horarios {
+        color: rgb(233, 32, 25);
+        text-align: center;
+    }
+
+    /* header */
+
+    .header {
+        border: 2px;
+        border-style: outset;
+        border-radius: 5px;
+        margin: 15px;
+        position: relative;
+        height: 100px;
+        width: 100% - 15px;
+        background-color: white;
+        padding-left: 10px;
+    }
+    .contenedorlogo{
+        display: flex;
+    }
+
+    /* main */
+
+    .main {
+        height: 500px;
+        margin-top: 30px;
+        padding-left: 15px;
+        position: relative;
+    }
+
+    .imgkiosco{
+        height: 300px;
+        width: 500px;
+    }
+
+    /* footer */
+
+    .footer {
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        height: 25px;
+        width: 100%;
+        background-color: rgba(235, 14, 14, 0.74);
+    }
+
+    /* formulario de pedidos */
+
+    .pedidosformulario {
+        background-color: white;
+        margin-left: 15px;
+        padding: 0px 7px 5px;
+        width: 50%;
+        border: 3px solid rgba(0, 0, 0, 0.788);
+        border-radius: 5px;
+    }
+
+    .form-check{
+        margin-left: -20px;
+    }
+    
+    .mainpedidos {
+        height: 650px;
+    }
+
+    .nomapellpedidos {
+        padding-right: 5px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .nompedidos,
+    .apellpedidos {
+        padding-right: 15px;
+    }
+
+    /* formulario de contacto */
+
+    .contactoformulario {
+        background-color: white;
+        margin-left: 15px;
+        padding: 0px 7px 5px;
+        width: 50%;
+        border: 3px solid rgba(0, 0, 0, 0.788);
+        border-radius: 5px;
+    }
+
+    .maincontacto {
+        height: 650px;
+    }
+
+    .nomapellcontacto {
+        padding-right: 5px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .nomcontacto,
+    .apellcontacto {
+        padding-right: 15px;
+    }
+
+    /* navegador */
+    
+    .contenedornav{
+        display: flex;
+    }
+
+    .navegador {
+        position: absolute;
+        margin: 50px 0px 0px -30%;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 0px;
+        list-style: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 120%;
+        justify-content: center;
+    }
+
+
+    .op2, .op3, .op4, .op5 {
+        text-align: center;
+        padding-right: 5px;
+        padding-left: 5px;
+        border-left: 2px solid black;
+    }
+
+    .op1 {
+        text-align: center;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    /* titulos */
+
+    h1 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
+
+@media(min-width: 426px) and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        width: 100%;
+        min-height: 100vh;
+        position: relative;
+        background-image: url("./imágenes/backgroundtrianglespastel.jpg");
+    }
+
+    /* Tabla de horarios */
+
+    .tablahorarios {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .titulohorarios{
+        font-size: 140%;
+    }
+
+    .dias {
+        font-size: 100%;
+        font-weight: bold;
+    }
+
+    .horarios {
+        font-style: italic;
+    }
+
+    .dias,
+    .horarios {
+        color: rgb(233, 32, 25);
+        text-align: center;
+    }
+
+    /* header */
+
+    .header {
+        border: 2px;
+        border-style: outset;
+        border-radius: 5px;
+        margin: 15px;
+        position: relative;
+        height: 100px;
+        width: 100% - 15px;
+        background-color: white;
+        padding-left: 10px;
+    }
+    .contenedorlogo{
+        display: flex;
+    }
+
+    /* main */
+
+    .main {
+        height: 500px;
+        margin-top: 30px;
+        padding-left: 15px;
+        position: relative;
+    }
+
+    /* footer */
+
+    .footer {
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        height: 25px;
+        width: 100%;
+        background-color: rgba(235, 14, 14, 0.74);
+    }
+
+    /* formulario de pedidos */
+
+    .pedidosformulario {
+        background-color: white;
+        margin-left: 15px;
+        padding: 0px 7px 5px;
+        width: 65%;
+        border: 3px solid rgba(0, 0, 0, 0.788);
+        border-radius: 5px;
+    }
+
+    .form-check{
+        margin-left: -20px;
+    }
+    
+    .mainpedidos {
+        height: 600px;
+    }
+
+    .nomapellpedidos {
+        padding-right: 5px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .nompedidos,
+    .apellpedidos {
+        padding-right: 15px;
+    }
+
+    /* formulario de contacto */
+
+    .contactoformulario {
+        background-color: white;
+        margin-left: 15px;
+        padding: 0px 7px 5px;
+        width: 65%;
+        border: 3px solid rgba(0, 0, 0, 0.788);
+        border-radius: 5px;
+    }
+
+    .maincontacto {
+        height: 670px;
+    }
+
+    .nomapellcontacto {
+        padding-right: 5px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .nomcontacto,
+    .apellcontacto {
+        padding-right: 15px;
+    }
+
+    /* navegador */
+    
+    .contenedornav{
+        display: flex;
+    }
+
+    .navegador {
+        position: absolute;
+        margin: 50px 0px 0px -40%;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 0px;
+        list-style: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 100%;
+        justify-content: center;
+    }
+
+
+    .op2, .op3, .op4, .op5 {
+        text-align: center;
+        padding-right: 5px;
+        padding-left: 5px;
+        border-left: 2px solid black;
+    }
+
+    .op1 {
+        text-align: center;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    /* titulos */
+
+    h1 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
+
+@media(min-width: 376px) and (max-width: 425px){
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        width: 100%;
+        min-height: 100vh;
+        position: relative;
+        background-image: url("./imágenes/backgroundtrianglespastel.jpg");
+    }
+
+    /* Tabla de horarios */
+
+    .tablahorarios {
+        width: 90%;
+        height: 340px;
+        margin-left: 15px;
+        margin-right: 15px;
+        display: block;
+        overflow-x: auto;
+    }
+
+    .titulohorarios{
+        font-size: 140%;
+    }
+
+    .dias {
+        font-size: 100%;
+        font-weight: bold;
+    }
+
+    .horarios {
+        font-style: italic;
+    }
+
+    .dias,
+    .horarios {
+        color: rgb(233, 32, 25);
+        text-align: center;
+    }
+
+    /* header */
+
+    .header {
+        border: 2px;
+        border-style: outset;
+        border-radius: 5px;
+        margin: 15px;
+        position: relative;
+        height: 230px;
+        width: 100% - 15px;
+        background-color: white;
+        padding-left: 10px;
+    }
+    .contenedorlogo{
+        display: flex;
+    }
+    .Logo{
+        height: 190px;
+        width: 100px;
+    }
+
+    /* main */
+
+    .main {
+        height: 550px;
+        margin-top: 30px;
+        padding-left: 15px;
+        position: relative;
+    }
+
+    /* footer */
+
+    .footer {
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        height: 25px;
+        width: 100%;
+        background-color: rgba(235, 14, 14, 0.74);
+    }
+
+    /* formulario de pedidos */
+
+    .pedidosformulario {
+        background-color: white;
+        margin-left: 15px;
+        padding: 0px 7px 5px;
+        width: 90%;
+        border: 3px solid rgba(0, 0, 0, 0.788);
+        border-radius: 5px;
+    }
+
+    .form-check{
+        margin-left: -20px;
+    }
+    
+    .mainpedidos {
+        height: 750px;
+    }
+
+    .nomapellpedidos {
+        padding-right: 5px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .nompedidos,
+    .apellpedidos {
+        padding-right: 15px;
+    }
+
+    /* formulario de contacto */
+
+    .contactoformulario {
+        background-color: white;
+        margin-left: 15px;
+        padding: 0px 7px 5px;
+        width: 90%;
+        border: 3px solid rgba(0, 0, 0, 0.788);
+        border-radius: 5px;
+    }
+
+    .maincontacto {
+        height: 720px;
+    }
+
+    .nomapellcontacto {
+        padding-right: 5px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .nomcontacto,
+    .apellcontacto {
+        padding-right: 15px;
+    }
+
+    /* navegador */
+    
+    .contenedornav{
+        display: flex;
+    }
+
+    .navegador {
+        position: absolute;
+        margin: 50px 0px 0px -60%;
+        text-align: center;
+        display: flexbox;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 0px;
+        list-style: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 100%;
+        justify-content: center;
+    }
+
+
+    .op1, .op2, .op3, .op4, .op5 {
+        text-align: center;
+        padding: 0px 5px 10px 5px;
+    }
+
+    /* titulos */
+
+    h1 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .titulomain{
+        font-size: 130%;
+        margin-bottom: 40px;
+    }
+}
+
+@media(min-width: 321px) and (max-width: 375px){
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        width: 100%;
+        min-height: 100vh;
+        position: relative;
+        background-image: url("./imágenes/backgroundtrianglespastel.jpg");
+    }
+
+    /* Tabla de horarios */
+
+    .tablahorarios {
+        width: 90%;
+        height: 340px;
+        margin-left: 15px;
+        margin-right: 15px;
+        display: block;
+        overflow-x: auto;
+    }
+
+    .titulohorarios{
+        font-size: 140%;
+    }
+
+    .dias {
+        font-size: 100%;
+        font-weight: bold;
+    }
+
+    .horarios {
+        font-style: italic;
+    }
+
+    .dias,
+    .horarios {
+        color: rgb(233, 32, 25);
+        text-align: center;
+    }
+
+    /* header */
+
+    .header {
+        border: 2px;
+        border-style: outset;
+        border-radius: 5px;
+        margin: 15px;
+        position: relative;
+        height: 240px;
+        width: 100% - 15px;
+        background-color: white;
+        padding-left: 10px;
+    }
+    .contenedorlogo{
+        display: flex;
+    }
+    .Logo{
+        height: 230px;
+        width: 80px;
+    }
+
+    /* main */
+
+    .main {
+        height: 550px;
+        margin-top: 30px;
+        padding-left: 15px;
+        position: relative;
+    }
+    
+    .imgkiosco{
+        height: 300px;
+        width: 340px;
+    }
+
+    /* footer */
+
+    .footer {
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        height: 25px;
+        width: 100%;
+        background-color: rgba(235, 14, 14, 0.74);
+    }
+
+    /* formulario de pedidos */
+
+    .pedidosformulario {
+        background-color: white;
+        margin-left: 15px;
+        padding: 0px 5px 3px;
+        width: 90%;
+        border: 3px solid rgba(0, 0, 0, 0.788);
+        border-radius: 5px;
+    }
+
+    .form-check{
+        margin-left: -20px;
+    }
+
+    .mainpedidos {
+        height: 750px;
+    }
+
+    .nomapellpedidos {
+        padding-right: 5px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .nompedidos,
+    .apellpedidos {
+        padding-right: 15px;
+    }
+
+    /* formulario de contacto */
+
+    .contactoformulario {
+        background-color: white;
+        margin-left: 15px;
+        padding: 0px 7px 5px;
+        width: 90%;
+        border: 3px solid rgba(0, 0, 0, 0.788);
+        border-radius: 5px;
+    }
+
+    .maincontacto {
+        height: 720px;
+    }
+
+    .nomapellcontacto {
+        padding-right: 5px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .nomcontacto,
+    .apellcontacto {
+        padding-right: 15px;
+    }
+
+    /* navegador */
+    
+    .contenedornav{
+        display: flex;
+    }
+
+    .navegador {
+        position: absolute;
+        margin: 40px 0px 0px -70%;
+        text-align: center;
+        display: flexbox;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 0px;
+        list-style: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 100%;
+        justify-content: center;
+    }
+
+
+    .op1, .op2, .op3, .op4, .op5 {
+        text-align: center;
+        padding: 0px 5px 14px 0px;
+    }
+
+    /* titulos */
+
+    h1 {
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .titulomain{
+        font-size: 130%;
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 320px){
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        width: 100%;
+        min-height: 100vh;
+        position: relative;
+        background-image: url("./imágenes/backgroundtrianglespastel.jpg");
+    }
+
+    /* Tabla de horarios */
+
+    .tablahorarios {
+        width: 90%;
+        height: 340px;
+        margin-left: 15px;
+        margin-right: 15px;
+        display: block;
+        overflow-x: auto;
+    }
+
+    .titulohorarios{
+        font-size: 140%;
+    }
+
+    .dias {
+        font-size: 100%;
+        font-weight: bold;
+    }
+
+    .horarios {
+        font-style: italic;
+    }
+
+    .dias,
+    .horarios {
+        color: rgb(233, 32, 25);
+        text-align: center;
+    }
+
+    /* header */
+
+    .header {
+        border: 2px;
+        border-style: outset;
+        border-radius: 5px;
+        margin: 15px;
+        position: relative;
+        height: 250px;
+        width: 100% - 15px;
+        background-color: white;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+    .contenedorlogo{
+        display: flex;
+    }
+    .Logo{
+        height: 230px;
+        width: 80px;
+    }
+
+    /* main */
+
+    .main {
+        height: 600px;
+        margin-top: 30px;
+        padding-left: 15px;
+        position: relative;
+    }
+    
+    .imgkiosco{
+        height: 300px;
+        width: 290px;
+    }
+
+    /* footer */
+
+    .footer {
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        height: 25px;
+        width: 100%;
+        background-color: rgba(235, 14, 14, 0.74);
+    }
+
+    /* formulario de pedidos */
+
+    .pedidosformulario {
+        background-color: white;
+        margin-left: 15px;
+        padding: 0px 5px 3px;
+        width: 90%;
+        border: 3px solid rgba(0, 0, 0, 0.788);
+        border-radius: 5px;
+    }
+
+    .form-check{
+        margin-left: -20px;
+    }
+
+    .mainpedidos {
+        height: 770px;
+    }
+
+    .nomapellpedidos {
+        padding-right: 5px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .nompedidos,
+    .apellpedidos {
+        padding-right: 15px;
+    }
+
+    /* formulario de contacto */
+
+    .contactoformulario {
+        background-color: white;
+        margin-left: 15px;
+        padding: 0px 7px 5px;
+        width: 90%;
+        border: 3px solid rgba(0, 0, 0, 0.788);
+        border-radius: 5px;
+    }
+
+    .maincontacto {
+        height: 740px;
+    }
+
+    .nomapellcontacto {
+        padding-right: 5px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .nomcontacto,
+    .apellcontacto {
+        padding-right: 15px;
+    }
+
+    /* navegador */
+    
+    .contenedornav{
+        display: flex;
+    }
+
+    .navegador {
+        position: absolute;
+        margin: 70px 0px 0px -77%;
+        text-align: center;
+        display: flexbox;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 0px;
+        list-style: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 100%;
+        justify-content: center;
+    }
+
+
+    .op1, .op2, .op3, .op4, .op5 {
+        text-align: center;
+        padding: 0px 5px 10px 0px;
+    }
+
+    /* titulos */
+
+    h1 {
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .titulomain{
+        font-size: 130%;
+        margin-bottom: 40px;
+    }
+}
